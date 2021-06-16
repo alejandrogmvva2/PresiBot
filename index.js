@@ -905,7 +905,7 @@ async function starts() {
 					var nombre = reg.split("|")[0];
                                                 user.push(sender)
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						client.sendMessage(from, 'REGISTRADO ✅\nFecha: ${date}\n[Usuario]: ${nombre}\n[Número]: wa.me/${sender.split("@")[0]}\nTotal de ususrios ${user.length}\`\`\``, text, {quoted: mek})
+						client.sendMessage(from, 'REGISTRADO ✅\nFecha: ${date}\n[Usuario]: ${nombre}\n[Número]: wa.me/${sender.split("@")[0]}\nTotal de ususrios ${user.length}', text, {quoted: mek})
 					break
                                 case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
