@@ -10,9 +10,7 @@ const welmenu = (prefix, pushname) => {
 
 - ${prefix}welcome 0
 
-_Para activar este comando el bot necesita tener admin_
-
-by shanduy
+_Para activar este comando Presi tiene que tener admin._
 `
 
 }
