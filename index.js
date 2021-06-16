@@ -175,7 +175,7 @@ function addMetadata(packname, author) {
 	if (fs.existsSync(`./${name}.exif`)) return `./${name}.exif`
 	const json = {	
 		"sticker-pack-name": Presi,
-		"sticker-pack-publisher": PresiBot 🐖💨,
+		"sticker-pack-publisher": PresiBot,
 	}
 	const littleEndian = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x00, 0x41, 0x57, 0x07, 0x00])	
 	const bytes = [0x00, 0x00, 0x16, 0x00, 0x00, 0x00]	
