@@ -1,6 +1,6 @@
 const config = {
-        botName: 'ShanBot',
-        ownerName: 'Shan',
-        youtube: 'YOUTUBE_LINK',
-        instagram: 'INSTAGRAM_LINK',
+        botName: 'PresiBot',
+        ownerName: 'Presi',
+        youtube: 'https://www.youtube.com/user/CameraCafe100',
+        instagram: 'https://www.instagram.com/illo.presi/',
 }
